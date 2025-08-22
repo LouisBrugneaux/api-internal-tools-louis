@@ -6,6 +6,7 @@ use App\Entity\Tool;
 use Doctrine\ORM\QueryBuilder;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
+
 class ToolRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry) {
